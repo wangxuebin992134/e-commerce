@@ -90,6 +90,7 @@ ul,ol{
    height: 1000px;
    padding-left:180px;
    transition:all 1s;
+   height:1600px;
  }
  .lt_main.hidemenu{
     padding-left:0px;
@@ -103,6 +104,7 @@ ul,ol{
    top:0px;
    padding-left:180px; 
    transition:all 1s;
+   z-index:666;
   
  }
  .lt_main .lt_topbar.hidemenu {
@@ -120,4 +122,10 @@ ul,ol{
    padding-top:50px;
 
  }
- 
+
+ .table.table-bordered th,
+ .table.table-bordered td {
+   vertical-align: middle;
+   text-align: center;
+ }
+
