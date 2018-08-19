@@ -24,9 +24,9 @@
           <li><a href="user.html"><i class="glyphicon glyphicon-user"></i> <span>用户管理</span></a></li>
           <li>
             <a href="javascript:;" class="category"><i class="glyphicon glyphicon-list"></i> <span>分类管理</span></a>
-              <div class="child" style="display:none" >
-                  <a href="first.html">一级分类</a>
-                  <a href="second.html">二级分类</a>
+              <div class="child"  >
+                  <a href="first.html" >一级分类</a>
+                  <a href="second.html" class="current">二级分类</a>
               </div>
           </li>
           <li><a href="product.html"><i class="glyphicon glyphicon-tags"></i> <span>商品管理</span> </a></li>
@@ -48,15 +48,9 @@
           <ol class="breadcrumb m-20">
               <li><a href="#">管理系统</a></li>
               <li class="active">商品管理</li>
-          </ol>
-          <div class="content">
-            <div id="main" style="width: 500px;height:400px;" class="pull-left"></div>
-            <div id="box" style="width: 500px;height:400px;" class="pull-right"></div>
+              <li class="active">二级分类</li>
+            </ol>
           </div>
-
-          </div>
-
-
 
   </div>
   <!-- 模态框 -->
@@ -77,8 +71,6 @@
         </div>
       </div>
     </div>
-   
-
 
 
 
@@ -86,8 +78,7 @@
   <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
   <script src="./lib/nprogress/nprogress.js"></script>
-  <script src="./lib/echarts/echarts.min.js"></script>
    <script src="./js/common.js"></script>
-   <script src="./js/index.js"></script>
+
 </body>
 </html>
