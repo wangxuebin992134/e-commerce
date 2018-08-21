@@ -1,0 +1,50 @@
+/* 分类页 */
+.lt_category_left {
+  width: 90px;
+  height: 100%;
+  float:left;
+  position: relative;
+  ul{
+    li {
+      width: 90px;
+      height: 50px;
+
+      line-height:50px;
+      text-align: center;
+      background-color: #E3E4E5;
+      a{
+        display:block;
+        height: 50px;
+        color:#666;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        
+      }
+    }
+    li.current{
+      a {
+        border-right:none;
+        background-color: #fff;
+      }
+    }
+  }
+}
+.lt_category_right {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  ul {
+    li {
+      width: 33.33%;
+      float:left;
+      text-align:center;
+      a{
+        display: block;
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}
