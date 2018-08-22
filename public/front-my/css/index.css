@@ -12,25 +12,3 @@ img {
 .lt_nav ul li a {
   display: block;
 }
-.lt_product {
-  padding: 10px;
-}
-.lt_product ul li {
-  width: 48%;
-  float: left;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.lt_product ul li a {
-  display: block;
-}
-.lt_product ul li a .oldPrice {
-  color: red;
-}
-.lt_product ul li a .price {
-  text-decoration: line-through;
-}
-.lt_product ul li:nth-child(odd) {
-  margin-right: 4%;
-}
