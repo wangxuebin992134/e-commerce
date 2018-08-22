@@ -1,0 +1,38 @@
+.lt_sort {
+  background-color: #eee;
+  height: 30px;
+  line-height: 30px;
+}
+.lt_sort a {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+}
+.lt_sort a i {
+  margin: 0px 3px;
+}
+.lt_sort a.current {
+  color: orange;
+}
+/* 加载框 */
+.lt_product .loading {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #069;
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:150px;
+  animation: rotate 1s infinite ease-in-out;
+}
+/*动画*/ 
+@keyframes rotate{
+  from {
+      transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+      transform: translateX(-50%) rotate(360deg);
+  }
+}
